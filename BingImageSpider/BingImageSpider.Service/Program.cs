@@ -4,6 +4,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using BingImageSpider.Common;
 
 namespace BingImageSpider.Service
 {
@@ -14,6 +15,8 @@ namespace BingImageSpider.Service
         /// </summary>
         static void Main()
         {
+            string url = "https://cn.bing.com/";
+            HttpHelper.Get_Http(url);
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
