@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 namespace BingImageSpider.UnitTest
 {
     [TestClass]
-    public class ServiceUnitTest
+    public class ServiceTest
     {
         [TestMethod]
         public void TestMethod1()
