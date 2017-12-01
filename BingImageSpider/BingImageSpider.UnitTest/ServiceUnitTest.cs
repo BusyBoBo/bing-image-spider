@@ -14,6 +14,8 @@ namespace BingImageSpider.UnitTest
         {
             string bingImageUrl = ConfigHelper.GetSetting<string>("BingImageAPI", "https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1");
             string bingLonlatUrl = ConfigHelper.GetSetting<string>("BingLonlatAPI", "https://cn.bing.com/cnhp/life");
+            string localImagePath = ConfigHelper.GetSetting<string>("ImagePath", "E:/Images");
+
             string imageJson = HttpHelper.Get_Http(bingImageUrl);
             Regex regexUrl = new Regex(@"\""url""\:\s*""(?'url'[^""]*)""", RegexOptions.IgnoreCase);
             Regex regexCopyright = new Regex(@"\""copyright""\:\s*""(?'copyright'[^""]*)""", RegexOptions.IgnoreCase);
@@ -22,6 +24,7 @@ namespace BingImageSpider.UnitTest
                 string url = regexUrl.Match(imageJson).Groups["url"].Value;
                 string copyright = regexCopyright.Match(imageJson).Groups["copyright"].Value;
                 string imageUrl = string.Format("https://cn.bing.com{0}", url);
+                FileHelper.DownloadFile(imageUrl, localImagePath + "/" + DateTime.Now.ToString("yyyyMMdd") + FileHelper.GetPostfixStr(url));
             }
             HtmlWeb webClient = new HtmlWeb();
             HtmlDocument doc = webClient.Load(bingLonlatUrl);
