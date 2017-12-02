@@ -3,6 +3,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BingImageSpider.Common;
 using HtmlAgilityPack;
 using System.Text.RegularExpressions;
+using System.Xml;
+using System.Net;
+using System.IO;
 
 namespace BingImageSpider.UnitTest
 {
@@ -35,6 +38,31 @@ namespace BingImageSpider.UnitTest
             {
                 string lat = reg.Match(href).Groups["lat"].Value;
             }
+        }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            string bingImageUrl = ConfigHelper.GetSetting<string>("BingImageAPI", "https://cn.bing.com/HPImageArchive.aspx?idx=0&n=1");
+            var doc = GetXmlByUrl(bingImageUrl);
+            var urlNode = doc.SelectSingleNode("//images//image//url");
+        }
+
+        private static XmlDocument GetXmlByUrl(string url)
+        {
+            var doc = new XmlDocument();
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+            req.Method = "GET";
+            using (WebResponse wr = req.GetResponse())
+            {
+                using (StreamReader sr = new StreamReader(wr.GetResponseStream()))
+                {
+                    string response = sr.ReadToEnd();
+                    sr.Close();
+                    doc.LoadXml(response);
+                }
+            }
+            return doc;
         }
     }
 }
