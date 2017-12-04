@@ -44,8 +44,15 @@ namespace BingImageSpider.UnitTest
         public void TestMethod2()
         {
             string bingImageUrl = ConfigHelper.GetSetting<string>("BingImageAPI", "https://cn.bing.com/HPImageArchive.aspx?idx=0&n=1");
-            var doc =XmlHelper.GetXmlByUrl(bingImageUrl);
+            string localImagePath = ConfigHelper.GetSetting<string>("ImagePath", "E:/Images");
+            var doc = XmlHelper.GetXmlByUrl(bingImageUrl);
             var urlNode = doc.SelectSingleNode("//images//image//url");
+            if (urlNode != null)
+            {
+                string remoteUrl = "http://s.cn.bing.net/" + urlNode.InnerText;
+                FileHelper.CreateDirectory(localImagePath);
+                FileHelper.DownLoadPicture(remoteUrl, localImagePath);
+            }
         }
     }
 }

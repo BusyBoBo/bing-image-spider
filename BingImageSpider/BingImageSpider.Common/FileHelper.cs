@@ -61,5 +61,33 @@ namespace BingImageSpider.Common
                 throw ex;
             }
         }
+
+        public static void DownLoadPicture(string remoteUrl, string directoryPath)
+        {
+            WebRequest webReq = WebRequest.Create(new Uri(remoteUrl));
+            WebResponse webResponse = webReq.GetResponse();
+            long fileLength = webResponse.ContentLength;
+            string pictureName = remoteUrl.Substring(remoteUrl.LastIndexOf("/") + 1);
+            using (WebClient client=new WebClient())
+            {
+                Stream stream = client.OpenRead(remoteUrl);
+                byte[] bufferbyte = new byte[fileLength];
+                int allByte = (int)bufferbyte.Length;
+                int startByte = 0;
+                while (fileLength>0)
+                {
+                    int downByte = stream.Read(bufferbyte, startByte, allByte);
+                    if (downByte == 0) { break; };
+                    startByte += downByte;
+                    allByte -= downByte;
+                }
+                directoryPath = directoryPath.EndsWith("/") ? directoryPath : directoryPath + "/";
+                FileStream fs = new FileStream(directoryPath + pictureName, FileMode.OpenOrCreate, FileAccess.Write);
+                fs.Write(bufferbyte, 0, bufferbyte.Length);
+                stream.Close();
+                fs.Close();
+                webReq.Abort();
+            }
+        }
     }
 }
