@@ -11,9 +11,9 @@ using BingImageSpider.Common;
 
 namespace BingImageSpider.Service
 {
-    public partial class BingSpiderService : ServiceBase
+    public partial class BingSpider_Service : ServiceBase
     {
-        public BingSpiderService()
+        public BingSpider_Service()
         {
             InitializeComponent();
         }
@@ -26,6 +26,7 @@ namespace BingImageSpider.Service
 
         protected override void OnStop()
         {
+
         }
     }
 }

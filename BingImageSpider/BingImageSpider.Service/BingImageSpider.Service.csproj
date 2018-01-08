@@ -39,6 +39,7 @@
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,13 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BingSpiderService.cs">
+    <Compile Include="BingSpider_Service.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="BingSpiderService.Designer.cs">
-      <DependentUpon>BingSpiderService.cs</DependentUpon>
+    <Compile Include="BingSpider_Service.Designer.cs">
+      <DependentUpon>BingSpider_Service.cs</DependentUpon>
     </Compile>
+    <Compile Include="Host.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="BingSpider_Installer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BingSpider_Installer.Designer.cs">
+      <DependentUpon>BingSpider_Installer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +74,11 @@
       <Project>{44d104d2-67c7-4e77-9ce7-9b33f2fe87a6}</Project>
       <Name>BingImageSpider.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BingSpider_Installer.resx">
+      <DependentUpon>BingSpider_Installer.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

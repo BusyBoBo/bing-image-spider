@@ -1,6 +1,6 @@
 ﻿namespace BingImageSpider.Service
 {
-    partial class BingSpiderService
+    partial class BingSpider_Service
     {
         /// <summary> 
         /// 必需的设计器变量。

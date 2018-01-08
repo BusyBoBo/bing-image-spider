@@ -17,7 +17,7 @@ namespace BingImageSpider.Service
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
-                new BingSpiderService() 
+                new BingSpider_Service() 
             };
             ServiceBase.Run(ServicesToRun);
         }
