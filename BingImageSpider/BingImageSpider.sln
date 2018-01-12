@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImageSpider.Service", "BingImageSpider.Service\BingImageSpider.Service.csproj", "{17431E6D-5453-4336-B9F9-1E40CDD8A766}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImageSpider", "BingImageSpider\BingImageSpider.csproj", "{17431E6D-5453-4336-B9F9-1E40CDD8A766}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImageSpider.Common", "BingImageSpider.Common\BingImageSpider.Common.csproj", "{44D104D2-67C7-4E77-9CE7-9B33F2FE87A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImageSpider.UnitTest", "BingImageSpider.UnitTest\BingImageSpider.UnitTest.csproj", "{3AD7D186-7283-457D-B079-DC324974FAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImageSpider.Services", "BingImageSpider.Services\BingImageSpider.Services.csproj", "{EB325A67-22E8-42B0-A0EF-2E1D6A171F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{3AD7D186-7283-457D-B079-DC324974FAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD7D186-7283-457D-B079-DC324974FAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD7D186-7283-457D-B079-DC324974FAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB325A67-22E8-42B0-A0EF-2E1D6A171F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB325A67-22E8-42B0-A0EF-2E1D6A171F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB325A67-22E8-42B0-A0EF-2E1D6A171F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB325A67-22E8-42B0-A0EF-2E1D6A171F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

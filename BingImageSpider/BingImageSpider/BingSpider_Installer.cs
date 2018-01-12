@@ -6,7 +6,7 @@ using System.Configuration.Install;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BingImageSpider.Service
+namespace BingImageSpider
 {
     [RunInstaller(true)]
     public partial class BingSpider_Installer : Installer

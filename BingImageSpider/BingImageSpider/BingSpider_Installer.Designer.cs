@@ -1,4 +1,4 @@
-﻿namespace BingImageSpider.Service
+﻿namespace BingImageSpider
 {
     partial class BingSpider_Installer
     {

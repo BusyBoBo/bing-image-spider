@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BingImageSpider.Common;
 
-namespace BingImageSpider.Service
+namespace BingImageSpider
 {
     public partial class BingSpider_Service : ServiceBase
     {
@@ -20,13 +20,16 @@ namespace BingImageSpider.Service
 
         protected override void OnStart(string[] args)
         {
+            LogHelper.Listeners.Clear();
+            Host.Start();
+
             string url="https://cn.bing.com/";
             HttpHelper.Get_Http(url);
         }
 
         protected override void OnStop()
         {
-
+            Host.Stop();
         }
     }
 }
