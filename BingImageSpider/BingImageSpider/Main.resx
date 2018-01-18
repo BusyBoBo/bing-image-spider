@@ -117,13 +117,92 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="bingMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AACEhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/j48j/7W1bv/JyZP/l5cx/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/6ioU//e3r7////////////s7Nn/vr5//4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/5+fQf/S0qX/+fnz////////////////////////////3t6+/6ioU/+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+PjyP/5eXM////////////////////////////////////////////+fnz/9LS
+        pf+fn0H/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+PI//s7Nn/////////////////////////////////////////
+        /////////////+zs2f/JyZP/j48j/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs2f//////////////////////////////
+        ///////////////////////////////////s7Nn/tbVu/4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+PjyP/7OzZ//////////////////Ly
+        5f++vn//3t6+////////////////////////////////////////////3t6+/6ioU/+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+PI//s7Nn/////////
+        ////////7OzZ/4+PI/+PjyP/vr5//+zs2f//////////////////////////////////////8vLl/8nJ
+        k/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs
+        2f/////////////////y8uX/j48j/4SEDP+EhAz/l5cx/8nJk//y8uX/////////////////////////
+        ////////7OzZ/4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+PjyP/7OzZ//////////////////Ly5f+PjyP/hIQM/4SEDP+EhAz/hIQM/6ioU//e3r7/////////
+        ///////////////////s7Nn/j48j/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4+PI//s7Nn/////////////////8vLl/4+PI/+EhAz/hIQM/4SEDP+EhAz/j48j/76+
+        f//y8uX//////////////////////+zs2f+PjyP/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs2f/////////////////y8uX/j48j/4SEDP+EhAz/j48j/76+
+        f//s7Nn/////////////////////////////////7OzZ/4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+PjyP/7OzZ//////////////////Ly5f+PjyP/hIQM/4SE
+        DP++vn/////////////////////////////////////////////s7Nn/j48j/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+PI//s7Nn/////////////////8vLl/4+P
+        I/+EhAz/j48j/97evv//////////////////////////////////////7OzZ/76+f/+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs2f//////////////
+        ///y8uX/j48j/4SEDP+oqFP/+fnz///////////////////////s7Nn/ycmT/6ioU/+PjyP/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+PjyP/7OzZ////
+        //////////////Ly5f+PjyP/hIQM/9LSpf///////////+zs2f/S0qX/tbVu/4+PI/+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+P
+        I//s7Nn/////////////////8vLl/4+PI/+XlzH/3t6+/9jYsv+1tW7/l5cx/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/j48j/+zs2f/////////////////y8uX/j48j/4+PI/+XlzH/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+PjyP/7OzZ//////////////////Ly5f+PjyP/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+PI//s7Nn/////////////////8vLl/4+PI/+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs2f/////////////////y8uX/j48j/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+PjyP/7OzZ//////////////////Ly
+        5f+PjyP/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4+PI//s7Nn/////////
+        ////////8vLl/4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/j48j/+zs
+        2f/////////////////s7Nn/j48j/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+PjyP/7OzZ///////s7Nn/ycmT/6ioU/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4+PI/++vn//rq5f/4+PI/+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SEDP+EhAz/hIQM/4SE
+        DP+EhAz/hIQM/4SEDP+EhAz/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>138</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA

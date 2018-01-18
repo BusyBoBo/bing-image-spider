@@ -33,12 +33,16 @@
             // 
             // BingSpider_ServiceProcessInstaller
             // 
+            this.BingSpider_ServiceProcessInstaller.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.BingSpider_ServiceProcessInstaller.Password = null;
             this.BingSpider_ServiceProcessInstaller.Username = null;
             // 
             // BingSpider_ServiceInstaller
             // 
-            this.BingSpider_ServiceInstaller.ServiceName = "Service1";
+            this.BingSpider_ServiceInstaller.Description = "必应官网背景图抓取服务，停止此服务将不能正常下载必应网站图片。";
+            this.BingSpider_ServiceInstaller.DisplayName = "BingImageSpiderService";
+            this.BingSpider_ServiceInstaller.ServiceName = "BingImageSpiderService";
+            this.BingSpider_ServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // BingSpider_Installer
             // 

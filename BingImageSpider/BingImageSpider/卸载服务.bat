@@ -1,2 +1,2 @@
-InstallUtil.exe /u CloudMES.File.exe
+InstallUtil.exe /u BingImageSpider.exe
 pause

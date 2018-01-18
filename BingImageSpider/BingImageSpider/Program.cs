@@ -54,7 +54,7 @@ namespace BingImageSpider
                     default:
                         Application.EnableVisualStyles();
                         Application.SetCompatibleTextRenderingDefault(false);
-                        Application.Run(new BingForm());
+                        Application.Run(new Main());
                         break;
                 }
             }
@@ -62,7 +62,7 @@ namespace BingImageSpider
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new BingForm());
+                Application.Run(new Main());
             }
         }
 
