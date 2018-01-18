@@ -93,6 +93,8 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="卸载服务.bat" />
+    <None Include="安装服务.bat" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BingImageSpider.Common\BingImageSpider.Common.csproj">
@@ -122,6 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bing.ico" />
+    <Content Include="InstallUtil.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
